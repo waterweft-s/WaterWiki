@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/WaterWiki/",
+  head: [["link", { rel: "icon", href: "/WaterWiki/logo/chtholly_10.png" }]],
   title: "WaterWiki",
   description: "A VitePress Site",
   themeConfig: {
